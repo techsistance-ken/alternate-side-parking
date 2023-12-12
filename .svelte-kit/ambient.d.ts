@@ -42,6 +42,7 @@ declare module '$env/static/private' {
 	export const npm_config_noproxy: string;
 	export const npm_config_local_prefix: string;
 	export const USER: string;
+	export const COMMAND_MODE: string;
 	export const npm_config_globalconfig: string;
 	export const SSH_AUTH_SOCK: string;
 	export const __CF_USER_TEXT_ENCODING: string;
@@ -59,20 +60,33 @@ declare module '$env/static/private' {
 	export const AWS_SECRET_ACCESS_KEY: string;
 	export const npm_package_name: string;
 	export const LANG: string;
+	export const ITERM_PROFILE: string;
 	export const XPC_FLAGS: string;
 	export const npm_config_node_gyp: string;
 	export const npm_package_version: string;
 	export const XPC_SERVICE_NAME: string;
 	export const AWS_ACCESS_KEY_ID: string;
-	export const HOME: string;
 	export const SHLVL: string;
+	export const HOME: string;
+	export const COLORFGBG: string;
+	export const LC_TERMINAL_VERSION: string;
+	export const ITERM_SESSION_ID: string;
 	export const npm_config_cache: string;
 	export const LOGNAME: string;
 	export const npm_lifecycle_script: string;
 	export const npm_config_user_agent: string;
+	export const LC_TERMINAL: string;
+	export const SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS: string;
 	export const npm_node_execpath: string;
 	export const npm_config_prefix: string;
+	export const COLORTERM: string;
+	export const TEST: string;
+	export const VITEST: string;
 	export const NODE_ENV: string;
+	export const PROD: string;
+	export const DEV: string;
+	export const BASE_URL: string;
+	export const MODE: string;
 }
 
 /**
@@ -118,6 +132,7 @@ declare module '$env/dynamic/private' {
 		npm_config_noproxy: string;
 		npm_config_local_prefix: string;
 		USER: string;
+		COMMAND_MODE: string;
 		npm_config_globalconfig: string;
 		SSH_AUTH_SOCK: string;
 		__CF_USER_TEXT_ENCODING: string;
@@ -135,20 +150,33 @@ declare module '$env/dynamic/private' {
 		AWS_SECRET_ACCESS_KEY: string;
 		npm_package_name: string;
 		LANG: string;
+		ITERM_PROFILE: string;
 		XPC_FLAGS: string;
 		npm_config_node_gyp: string;
 		npm_package_version: string;
 		XPC_SERVICE_NAME: string;
 		AWS_ACCESS_KEY_ID: string;
-		HOME: string;
 		SHLVL: string;
+		HOME: string;
+		COLORFGBG: string;
+		LC_TERMINAL_VERSION: string;
+		ITERM_SESSION_ID: string;
 		npm_config_cache: string;
 		LOGNAME: string;
 		npm_lifecycle_script: string;
 		npm_config_user_agent: string;
+		LC_TERMINAL: string;
+		SQLITE_EXEMPT_PATH_FROM_VNODE_GUARDS: string;
 		npm_node_execpath: string;
 		npm_config_prefix: string;
+		COLORTERM: string;
+		TEST: string;
+		VITEST: string;
 		NODE_ENV: string;
+		PROD: string;
+		DEV: string;
+		BASE_URL: string;
+		MODE: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

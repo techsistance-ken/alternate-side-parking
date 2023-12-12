@@ -15,8 +15,11 @@
 <div class="flex-center">
     <h3>Rochester, MN Alternate Side Parking</h3>
 </div>
-<div class="flex-center">
-    <p  style="font-weight: bolder; font-size: large; font-family: 'Orbitron', sans-serif;">{`${todaysDate.toLocaleDateString()} ${todaysDate.toLocaleTimeString()}`}</p>
+<div class="flex-center" style="flex-direction: column;">
+    <p  >
+        <span>Current Device Time:</span><br>
+        <span style="font-weight: bolder; font-size: large; font-family: 'Orbitron', sans-serif;">{`${todaysDate.toLocaleDateString()} ${todaysDate.toLocaleTimeString()}`}</span>
+    </p>
 </div>
 {#if restricted}
 <div class="flex-center" style="background-color: #CCCCCC; padding: 4px; display: flex; align-items: center; justify-content: center;">
